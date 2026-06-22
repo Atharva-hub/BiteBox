@@ -1,0 +1,51 @@
+    *{
+            margin: 0;
+            padding: 0;
+
+        }
+
+        nav{
+            background-color: black;
+            padding:10px;
+            
+        }
+        ul{
+            /* display: inline-block; */
+            float: right;
+            padding-top:10px;
+            padding-right:20px;
+            
+            
+        }
+        li {
+            display: inline-block;
+            margin-left:20px;
+            
+            
+            
+
+        }
+        h1{
+            display: inline-block;
+
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+            
+        }
+        nav a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+
+        nav li:last-child a{
+            background-color: red;
+            border-radius: 5px;
+            padding:5px;
+        }
+        nav li:last-child a:hover{
+            background-color: white;
+            color: red;
+        }
