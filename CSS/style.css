@@ -52,7 +52,7 @@
 
         .hero{
             background-color:aqua;
-            background: url('../Images/banner.png') no-repeat  center/cover;
+            background: url('Images/banner.png') no-repeat  center/cover;
             height: 80vh;
             display: flex;
             justify-content: center;
