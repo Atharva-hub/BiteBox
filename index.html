@@ -9,63 +9,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon_io/favicon-32x32.png?v=20260623">
     <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon_io/favicon-16x16.png?v=20260623">
     <link rel="apple-touch-icon" sizes="180x180" href="Images/favicon_io/apple-touch-icon.png?v=20260623">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
 
-
-    <!-- Replace your current Font Awesome link with this -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <style>
-            *{
-            margin: 0;
-            padding: 0;
-
-        }
-
-        nav{
-            background-color: black;
-            padding:10px;
-            
-        }
-        ul{
-            /* display: inline-block; */
-            float: right;
-            padding-top:10px;
-            padding-right:20px;
-            
-            
-        }
-        li {
-            display: inline-block;
-            margin-left:20px;
-            
-            
-            
-
-        }
-        h1{
-            display: inline-block;
-
-        }
-
-        a{
-            text-decoration: none;
-            color: white;
-            
-        }
-        nav a:hover{
-            color: red;
-            text-decoration: underline;
-        }
-
-        nav li:last-child a{
-            background-color: red;
-            border-radius: 5px;
-            padding:5px;
-        }
-        nav li:last-child a:hover{
-            background-color: white;
-            color: red;
-        }
-    </style>
 </head>
 <body>
 
@@ -88,9 +34,43 @@
             </div>
         </nav>
     </header>
-    <section style="background-color: lightblue;">
-        <h1>This is main section!!</h1>
+    <section class="hero">
+
+        <section class="hero-content">
+            <h1>Welcome to BiteBox</h1>
+            <p>Discover the best bites in town!</p>
+            <button>Order Now</button>
+        </section>
+
     </section>
+
+
+    <section class="video-section">
+        <div class="video-text">
+            <h2>Watch Our Story</h2>
+            <p>Learn more about our journey and passion for great food.</p>
+        </div>
+
+        <div class="video-box">
+            <video  autoplay muted loop playsinline>
+                <source src="Images/vid.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+
+    <section class="about-section">
+        <div class="about-text">
+            <h2>About BiteBox</h2>
+            <p>At BiteBox, we are dedicated to bringing you the finest culinary experiences. Our chefs craft each dish with care, using only the freshest ingredients. Join us and savor the flavors that make BiteBox a favorite destination for food lovers.</p>
+        </div>
+    </section>    
+
+
+    <section>
+        This is the main section!!
+    </section>
+
     <footer style="background-color: lightgray;">
         <p>Copyright &copy; 2026 BiteBox. All rights reserved.</p>
     </footer>
