@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cart-container{
+    background-color: lightgray;
+    width: 95%;
+    margin: 30px auto;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    padding: 20px;
+}
+
+thead{
+    background:red;
+    color:white;
+}
+th{
+    padding:20px;
+    text-align:center;
+    font-size: 22px;
+
+}
+
+td{
+    padding:20px;
+    text-align:center;
+    border-bottom:1px solid #ddd;
+}
+.item-info{
+    display:flex;
+    align-items:center;
+    gap:40px;
+}
+
+.item-info img{
+    width:100px;
+    height:100px;
+    border-radius:12px;
+}
+
+.item-details{
+    text-align:left;
+}
+.item-details h2{
+    margin:5px;   
+}
+
+.item-details p {
+    color:rgb(170, 168, 168);
+}
+
+.qty-box{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+}
+
+
+.qty-btn{
+    width:20px;
+    height:20px;
+    background-color:red;
+    border:none;
+    color:white;
+}
+
+.qty-btn:hover{
+    background-color:black;
+}
+.grand-total{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px;
+    
+}
+
+.proceed-btn{
+    background-color:red;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    margin-right: 40px;
+    font-size: 15px;
+}
+.remove-btn{
+    background-color:transparent;
+    border:none;
+    font-size: 20px;
+    cursor:pointer;
+    padding:10px;
+    border-radius:10px;
+}
+
+.remove-btn:hover{
+    color:red;
+    background-color:black;
+}
+
+
+
