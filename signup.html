@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
 
-    <title>Login</title>
 
     <link rel="icon" type="image/x-icon" href="Images/favicon_io/favicon.ico?v=20260623">
     <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon_io/favicon-32x32.png?v=20260623">
@@ -12,19 +12,15 @@
     <link rel="apple-touch-icon" sizes="180x180" href="Images/favicon_io/apple-touch-icon.png?v=20260623">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/login.css">
-
-
+    <link rel="stylesheet" href="CSS/signup.css">
 </head>
 <body>
-    <header>
+        <header>
         <nav>
 
             <div>
                 
                 <img src="Images/ogo.png" alt="BiteBox Logo" height="30px" width="180px">
-
-                
                 <ul>
                     <li><a href="home.html">Home</a></li>
                     <li><a href="menu.html">Menu</a></li>
@@ -32,29 +28,24 @@
                     <li><a href="cart.html"><i class="fa-solid fa-cart-arrow-down"></i></a></li>
                     <li><a href="login.html"><i class="fa-solid fa-arrow-right-to-bracket"></i>Login</a></li>
                 </ul>
-
-                    
+                
             </div>
         </nav>
     </header>
-    <!-- <h1>Login</h1> -->
-    <div class="login-container">
-        <div class="login-box">
+    
+    <div class="signup-container">
+        <div class="signup-box">
             <form>
-                <label for="username">Username</label>
                 <input type="text" placeholder="Username" required>
-                <label for="password">Password</label>
-                <input type="password" placeholder="Password" required><br>
-                <button type="submit">Login</button>
-                 <p >Don't have an account? <a href="signup.html">Sign Up</a></p>
-                 <p>Forgot Password? <a href="forgot-password.html">Reset</a></p>
-               
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm Password" required>
+                <button type="submit">Sign Up</button>
+                <p>Already have an account? <a href="login.html">Login</a></p>
+                
             </form>
-            
         </div>
     </div>
-
-
     
 </body>
 </html>
